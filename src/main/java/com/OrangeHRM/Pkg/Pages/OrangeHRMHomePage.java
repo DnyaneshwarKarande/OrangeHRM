@@ -72,7 +72,7 @@ public class OrangeHRMHomePage extends TestBaseClass {
 		admtag.click();
 		
 		JobTag.click();
-		
+		System.out.println(JBList.size());
 		for(int i=0;i<JBList.size();i++) {
 			System.out.println(i);
 			if(JBList.get(i).getText().equals("Employment Status")) {
