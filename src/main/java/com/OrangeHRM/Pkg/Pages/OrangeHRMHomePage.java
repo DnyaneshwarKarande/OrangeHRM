@@ -3,6 +3,7 @@ package com.OrangeHRM.Pkg.Pages;
 
 
 import java.io.IOException;
+import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,6 +21,17 @@ public class OrangeHRMHomePage extends TestBaseClass {
 	
 	@FindBy(partialLinkText="Admin")
 	WebElement admtag;
+	
+	@FindBy(xpath="//span[contains(text(),\"Job\")]")
+     WebElement JobTag;
+	
+	@FindBy (xpath="//ul[@class=\"oxd-dropdown-menu\"]//li")
+	List<WebElement> JBList;
+	
+	@FindBy (xpath="//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary\"]")
+	WebElement addButton;
+	
+	
 	
 	public OrangeHRMHomePage() throws IOException {
 		PageFactory.initElements(driver, this);
@@ -53,6 +65,24 @@ public class OrangeHRMHomePage extends TestBaseClass {
 	public boolean validateAdminTag() {
 		boolean ADMPgIsAvailableOrNot=admtag.isDisplayed();
 		return ADMPgIsAvailableOrNot;
+	}
+	
+	public boolean JobListVarification() {
+  
+		admtag.click();
+		
+		JobTag.click();
+		
+		for(int i=0;i<JBList.size();i++) {
+			System.out.println(i);
+			if(JBList.get(i).getText().equals("Employment Status")) {
+				JBList.get(i).click();
+				break;
+			}
+		}
+		boolean addButtonValidation=addButton.isDisplayed();
+		return addButtonValidation;
+		
 	}
 
 }

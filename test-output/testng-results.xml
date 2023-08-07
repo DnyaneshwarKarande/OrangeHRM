@@ -1,36 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="2" skipped="1">
+<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-04T00:23:28 IST" name="Suite1" finished-at="2023-08-04T00:24:47 IST" duration-ms="79143">
+  <suite started-at="2023-08-07T17:07:11 IST" name="Suite1" finished-at="2023-08-07T17:08:40 IST" duration-ms="88830">
     <groups>
     </groups>
-    <test started-at="2023-08-04T00:23:28 IST" name="Test1" finished-at="2023-08-04T00:24:47 IST" duration-ms="79143">
+    <test started-at="2023-08-07T17:07:11 IST" name="Test1" finished-at="2023-08-07T17:08:40 IST" duration-ms="88830">
       <class name="com.OrangeHRM.TestCases.HomePagetestClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]" started-at="2023-08-04T00:24:05 IST" name="setUp" finished-at="2023-08-04T00:24:27 IST" duration-ms="21514" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:07:45 IST" name="setUp" finished-at="2023-08-07T17:08:02 IST" duration-ms="16474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="admBtn()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]" started-at="2023-08-04T00:24:27 IST" name="admBtn" finished-at="2023-08-04T00:24:27 IST" duration-ms="121" status="PASS">
+        <test-method signature="JobTagValidate()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:02 IST" name="JobTagValidate" finished-at="2023-08-07T17:08:05 IST" duration-ms="3017" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- admBtn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]" started-at="2023-08-04T00:24:27 IST" name="tearDown" finished-at="2023-08-04T00:24:27 IST" duration-ms="315" status="PASS">
+        </test-method> <!-- JobTagValidate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:05 IST" name="tearDown" finished-at="2023-08-07T17:08:05 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]" started-at="2023-08-04T00:24:27 IST" name="setUp" finished-at="2023-08-04T00:24:46 IST" duration-ms="18899" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:05 IST" name="setUp" finished-at="2023-08-07T17:08:22 IST" duration-ms="17013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="serchBtn()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]" started-at="2023-08-04T00:24:46 IST" name="serchBtn" finished-at="2023-08-04T00:24:46 IST" duration-ms="0" status="FAIL">
+        <test-method signature="admBtn()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:22 IST" name="admBtn" finished-at="2023-08-07T17:08:22 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:22 IST" name="tearDown" finished-at="2023-08-07T17:08:22 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:22 IST" name="setUp" finished-at="2023-08-07T17:08:40 IST" duration-ms="17259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="serchBtn()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:40 IST" name="serchBtn" finished-at="2023-08-07T17:08:40 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because the return value of "com.OrangeHRM.Pkg.Util.FetchElement.getWebElement(String, String)" is null]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because the return value of "com.OrangeHRM.Pkg.Util.FetchElement.getWebElement(String, String)" is null
-at com.OrangeHRM.Pkg.Pages.OrangeHRMHomePage.validateSerchButton(OrangeHRMHomePage.java:42)
+at com.OrangeHRM.Pkg.Pages.OrangeHRMHomePage.validateSerchButton(OrangeHRMHomePage.java:54)
 at com.OrangeHRM.TestCases.HomePagetestClass.serchBtn(HomePagetestClass.java:39)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -64,19 +76,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serchBtn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]" started-at="2023-08-04T00:24:46 IST" name="tearDown" finished-at="2023-08-04T00:24:47 IST" duration-ms="345" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:40 IST" name="tearDown" finished-at="2023-08-07T17:08:40 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="Logov()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]" started-at="2023-08-04T00:24:47 IST" name="Logov" finished-at="2023-08-04T00:24:47 IST" depends-on-methods="com.OrangeHRM.TestCases.HomePagetestClass.serchBtn" duration-ms="0" status="SKIP">
+        <test-method signature="Logov()[pri:0, instance:com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]" started-at="2023-08-07T17:08:40 IST" name="Logov" finished-at="2023-08-07T17:08:40 IST" depends-on-methods="com.OrangeHRM.TestCases.HomePagetestClass.serchBtn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method com.OrangeHRM.TestCases.HomePagetestClass.Logov() on instance com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64 depends on not successfully finished methods 
-[com.OrangeHRM.TestCases.HomePagetestClass.serchBtn() on instance com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]]]>
+              <![CDATA[Method com.OrangeHRM.TestCases.HomePagetestClass.Logov() on instance com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2 depends on not successfully finished methods 
+[com.OrangeHRM.TestCases.HomePagetestClass.serchBtn() on instance com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method com.OrangeHRM.TestCases.HomePagetestClass.Logov() on instance com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64 depends on not successfully finished methods 
-[com.OrangeHRM.TestCases.HomePagetestClass.serchBtn() on instance com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]
+              <![CDATA[java.lang.Throwable: Method com.OrangeHRM.TestCases.HomePagetestClass.Logov() on instance com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2 depends on not successfully finished methods 
+[com.OrangeHRM.TestCases.HomePagetestClass.serchBtn() on instance com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -104,11 +116,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Logov -->
       </class> <!-- com.OrangeHRM.TestCases.HomePagetestClass -->
       <class name="com.OrangeHRM.TestCases.LoginPageTestCases">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OrangeHRM.TestCases.LoginPageTestCases@530712d]" started-at="2023-08-04T00:23:28 IST" name="Setup" finished-at="2023-08-04T00:23:36 IST" duration-ms="8119" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OrangeHRM.TestCases.LoginPageTestCases@2df6226d]" started-at="2023-08-07T17:07:11 IST" name="Setup" finished-at="2023-08-07T17:07:17 IST" duration-ms="5617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="OrangeUername()[pri:0, instance:com.OrangeHRM.TestCases.LoginPageTestCases@530712d]" started-at="2023-08-04T00:23:36 IST" name="OrangeUername" finished-at="2023-08-04T00:24:04 IST" duration-ms="28719" status="FAIL">
+        <test-method signature="OrangeUername()[pri:0, instance:com.OrangeHRM.TestCases.LoginPageTestCases@2df6226d]" started-at="2023-08-07T17:07:17 IST" name="OrangeUername" finished-at="2023-08-07T17:07:45 IST" duration-ms="28117" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),"Paul456466 Collings")]"}
@@ -117,9 +129,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [38e953fc2c482d0435371679237f4827, findElement {using=xpath, value=//p[contains(text(),"Paul456466 Collings")]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DNYANE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57189}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57189/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 38e953fc2c482d0435371679237f4827]]>
+Command: [d894faa1e58130b989fafc77e782e52e, findElement {using=xpath, value=//p[contains(text(),"Paul456466 Collings")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DNYANE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62805/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d894faa1e58130b989fafc77e782e52e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),"Paul456466 Collings")]"}
@@ -128,9 +140,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [38e953fc2c482d0435371679237f4827, findElement {using=xpath, value=//p[contains(text(),"Paul456466 Collings")]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DNYANE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57189}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57189/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 38e953fc2c482d0435371679237f4827
+Command: [d894faa1e58130b989fafc77e782e52e, findElement {using=xpath, value=//p[contains(text(),"Paul456466 Collings")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DNYANE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62805/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d894faa1e58130b989fafc77e782e52e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -182,7 +194,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeUername -->
-        <test-method is-config="true" signature="tearDown1()[pri:0, instance:com.OrangeHRM.TestCases.LoginPageTestCases@530712d]" started-at="2023-08-04T00:24:05 IST" name="tearDown1" finished-at="2023-08-04T00:24:05 IST" duration-ms="407" status="PASS">
+        <test-method is-config="true" signature="tearDown1()[pri:0, instance:com.OrangeHRM.TestCases.LoginPageTestCases@2df6226d]" started-at="2023-08-07T17:07:45 IST" name="tearDown1" finished-at="2023-08-07T17:07:45 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown1 -->
