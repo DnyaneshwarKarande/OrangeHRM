@@ -29,12 +29,12 @@ public class HomePagetestClass extends TestBaseClass{
 		Lg.Login(); //to pass credentials and login to application
 		Thread.sleep(3000);
 	}
-	@Test
+	@Test()
 	public void admBtn() {
 		boolean adm=HomePage.validateAdminTag();
 		Assert.assertTrue(adm);
 	}
-	@Test
+	@Test()
 	public void serchBtn() throws InterruptedException {
 		boolean serch=HomePage.validateSerchButton();
 		Assert.assertTrue(serch);
@@ -43,6 +43,15 @@ public class HomePagetestClass extends TestBaseClass{
 	public void Logov() throws InterruptedException {
 		boolean Logo=HomePage.validateLogo();
 		Assert.assertTrue(Logo);
+	}
+	
+	@Test 
+	public void JobTagValidate() {
+		
+		boolean addBtn=HomePage.JobListVarification();
+		Assert.assertTrue(addBtn);
+		
+		
 	}
 	
 	@AfterMethod

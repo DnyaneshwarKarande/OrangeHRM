@@ -9,12 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite1</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">79,143</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">88,830</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.OrangeHRM.TestCases.HomePagetestClass</td><td><a href="#m0">serchBtn</a></td><td rowspan="1">1691088886544</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.OrangeHRM.TestCases.LoginPageTestCases</td><td><a href="#m1">OrangeUername</a></td><td rowspan="1">1691088816248</td><td rowspan="1">28719</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.OrangeHRM.TestCases.HomePagetestClass</td><td><a href="#m2">Logov</a></td><td rowspan="1">1691088887178</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.OrangeHRM.TestCases.HomePagetestClass</td><td><a href="#m3">admBtn</a></td><td rowspan="1">1691088867198</td><td rowspan="1">121</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.OrangeHRM.TestCases.HomePagetestClass</td><td><a href="#m0">serchBtn</a></td><td rowspan="1">1691408320038</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.OrangeHRM.TestCases.LoginPageTestCases</td><td><a href="#m1">OrangeUername</a></td><td rowspan="1">1691408237240</td><td rowspan="1">28117</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.OrangeHRM.TestCases.HomePagetestClass</td><td><a href="#m2">Logov</a></td><td rowspan="1">1691408320413</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.OrangeHRM.TestCases.HomePagetestClass</td><td><a href="#m3">JobTagValidate</a></td><td rowspan="1">1691408282248</td><td rowspan="1">3017</td></tr><tr class="passedeven"><td><a href="#m4">admBtn</a></td><td rowspan="1">1691408302543</td><td rowspan="1">32</td></tr></tbody>
 </table>
 <h2>Test1</h2><h3 id="m0">com.OrangeHRM.TestCases.HomePagetestClass#serchBtn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because the return value of &quot;com.OrangeHRM.Pkg.Util.FetchElement.getWebElement(String, String)&quot; is null
-	at com.OrangeHRM.Pkg.Pages.OrangeHRMHomePage.validateSerchButton(OrangeHRMHomePage.java:42)
+	at com.OrangeHRM.Pkg.Pages.OrangeHRMHomePage.validateSerchButton(OrangeHRMHomePage.java:54)
 	at com.OrangeHRM.TestCases.HomePagetestClass.serchBtn(HomePagetestClass.java:39)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
@@ -24,9 +24,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [38e953fc2c482d0435371679237f4827, findElement {using=xpath, value=//p[contains(text(),&quot;Paul456466 Collings&quot;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DNYANE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57189}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57189/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 38e953fc2c482d0435371679237f4827
+Command: [d894faa1e58130b989fafc77e782e52e, findElement {using=xpath, value=//p[contains(text(),&quot;Paul456466 Collings&quot;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DNYANE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62805/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d894faa1e58130b989fafc77e782e52e
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -45,10 +45,11 @@ Session ID: 38e953fc2c482d0435371679237f4827
 	at com.OrangeHRM.TestCases.LoginPageTestCases.OrangeUername(LoginPageTestCases.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.OrangeHRM.TestCases.HomePagetestClass#Logov</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.OrangeHRM.TestCases.HomePagetestClass.Logov() on instance com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64 depends on not successfully finished methods 
-[com.OrangeHRM.TestCases.HomePagetestClass.serchBtn() on instance com.OrangeHRM.TestCases.HomePagetestClass@12bd8a64]
+<h3 id="m2">com.OrangeHRM.TestCases.HomePagetestClass#Logov</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.OrangeHRM.TestCases.HomePagetestClass.Logov() on instance com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2 depends on not successfully finished methods 
+[com.OrangeHRM.TestCases.HomePagetestClass.serchBtn() on instance com.OrangeHRM.TestCases.HomePagetestClass@6b53bcc2]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.OrangeHRM.TestCases.HomePagetestClass#admBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.OrangeHRM.TestCases.HomePagetestClass#JobTagValidate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.OrangeHRM.TestCases.HomePagetestClass#admBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
